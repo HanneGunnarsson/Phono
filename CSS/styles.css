@@ -1,8 +1,110 @@
 :root {
-    --blue: #1e90ff;
+    --beige: #ae6e4e;
     --white: #ffffff;
+    --wheat: #f5deb3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ae6e4e;
+}
+
+/*.topnav a.active {
+    background-color: ;
+    color: white;
+  }*/
+
+  .hamburger-icon {
+    color: #f5deb3;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  .hamburger-icon :hover {
+    color: #ae6e4e;
+    font-size: 2rem;
+    transition: 1s;
+  }
+
+
+  nav {
+    position: absolute;
+    background: black;
+    width: 120px;
+    height: 250px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  nav a {
+    display: flex;
+    text-decoration: none;
+    color: #f5deb3;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  #menu-checkbox:checked ~ nav {
+    display: block;
+    display: none;
+  }
+
+h1, h2 {
+color: #f5deb3;
+text-align: center;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 500px;
+    font-size: 100px;
 }
+
+p {
+    text-align: center;
+    color: #f5deb3;
+    font-size: 1.25rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+  .phono-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .copyright-container p {
+    color: #f5deb3;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  @media (min-width: 600px) {
+    .hamburger-icon {
+      display: none;
+    }
+
+    nav {
+        display: inline-block;
+        background: none;
+        overflow: hidden;
+        width: 90%;
+        font-size: 1rem;
+      }
+    
+      nav a {
+        float: right;
+        text-decoration: none;
+        padding: 15px;
+      }
+    }
