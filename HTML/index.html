@@ -8,29 +8,26 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../CSS/styles.css" rel="stylesheet"/>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
   </head>
   <body background="../IMAGES/festival-bg.jpg">
     <header class="header">
-      <div>
-        <div class="icons">
-          <label for="menu-checkbox" class="hamburger-icon">
-            <i class="fas fa-bars"></i
-          ></label>
-          <input type="checkbox" id="menu-checkbox" />
-            </div>
-        <nav>
+      <div class="container">
+        <nav class="menu">
+          <a href="contact.html">Kontakt</a>
           <a href="brands.html">Merker</a>
           <a href="references.html">Referanser</a>
-          <a href="contact.html">Kontakt</a>
         </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
       </div>
     </header>
+    <nav class="mobile-nav">
+      <a href="index.html">Hjem</a>
+      <a href="brands.html">Merker</a>
+      <a href="references.html">Referanser</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
     <main>
     <section class="welcome-section">
       <div>
@@ -54,6 +51,7 @@
       <p>&copy; Copyright Gunnarsson Consulting 2023</p>
     </div>
   </footer>
+  <script src="./JS/javascript.js"></script>
   </body>
 </html>
   
