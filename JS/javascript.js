@@ -1,4 +1,5 @@
 window.onload = function () {
+	console.log("Pikk");
 	window.addEventListener('scroll', function (e) {
 		if (window.pageYOffset > 100) {
 			document.querySelector("header").classList.add('is-scrolling');
@@ -6,6 +7,7 @@ window.onload = function () {
 			document.querySelector("header").classList.remove('is-scrolling');
 		}
 	});
+
 
 	const menu_btn = document.querySelector('.hamburger');
 	const mobile_menu = document.querySelector('.mobile-nav');
